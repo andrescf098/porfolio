@@ -1,0 +1,41 @@
+:root {
+    --bg: black;
+    --bg-content: #ECE9E9;
+    --bg-tooltips: #A6A6A6;
+    --bg-tooltips-hover: #868585;
+    --bg-card: white;
+    --bg-separator: linear-gradient(220deg, rgba(3, 113, 163, 1) 0%, rgba(255, 174, 82, 1) 100%);
+    --text-focus: #F09836;
+    --text-nFocus: rgba(255, 255, 255, 0.5);
+    --text-home: white;
+    --text-title-home: #FFAE52;
+    --text-content: #737070;
+    --blue: #35B8F0;
+    --font-size-title: 36px;
+    --font-size-subtitle: 20px;
+    --font-size-content: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 0;
+}
+
+body {
+    background-color: var(--bg);
+    min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty
+}
