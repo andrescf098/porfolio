@@ -155,6 +155,10 @@
 }
 
 @media (width < 800px) {
+    ._header {
+        margin-top: 0;
+    }
+
     ._subtitle {
         width: 80%;
     }

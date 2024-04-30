@@ -9,9 +9,14 @@
     margin-top: 12px;
 }
 
-.footer span svg {
+.footer svg {
     width: 24px;
     height: 24px;
     color: white;
     margin-right: 4px;
+    transition: all 0.3s ease;
+}
+
+.footer svg:hover {
+    color: var(--text-focus);
 }

@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import styles from './Presentation.module.css';
 import Link from 'next/link';
-import { HorizontalWrapper } from '../HorizontalWrapper';
 
 export const Presentation = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -48,7 +47,7 @@ export const Presentation = () => {
           <div className={styles._description}>
             <p>I&apos;m full-stack web developer based in Colombia</p>
             <span>
-              <Link href=''>
+              <Link href='https://www.linkedin.com/in/andr%C3%A9s-cifuentes-castro-513b74306/'>
                 <FontAwesomeIcon icon={faLinkedin} />
               </Link>
               <Link href='https://github.com/andrescf098'>
