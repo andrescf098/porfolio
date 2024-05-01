@@ -6,7 +6,7 @@ import { Separator } from 'app/components/Separator';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Porfolio of Andrés Cifuentes',
+  title: 'Porfolio',
 };
 
 export default function Home() {

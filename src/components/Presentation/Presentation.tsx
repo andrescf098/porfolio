@@ -54,7 +54,7 @@ export const Presentation = () => {
                 <FontAwesomeIcon icon={faGithub} />
               </Link>
               <Link
-                href='https://drive.google.com/file/d/12Ej5AlVzrnhb2Npd6Az19wLc5-6AiMUJ/view?usp=drive_link'
+                href='https://drive.google.com/file/d/1Fa9EiAyTjTdJ8CFuuzRgTjzoon4U0tfO/view?usp=sharing'
                 className={styles._button}
                 onMouseEnter={handleHover}
                 onMouseLeave={handleHover}
