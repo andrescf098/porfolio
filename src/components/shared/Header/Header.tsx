@@ -1,6 +1,6 @@
-'use client';
-import React from 'react';
-import styles from './Header.module.css';
+"use client";
+import React from "react";
+import styles from "./Header.module.css";
 
 export const Header = () => {
   return (
@@ -8,10 +8,14 @@ export const Header = () => {
       <nav className={styles.header__nav}>
         <ul>
           <li>
-            <a href='#home'>Home</a>
-            <a href='#about'>About me</a>
-            <a href='#projects'>Projects</a>
-            <a href='#contact'>Contact</a>
+            <a href="#home">Home</a>
+            <div className={styles.separator}></div>
+            <a href="#about">About me</a>
+            <div className={styles.separator}></div>
+            <a href="#projects">Projects</a>
+            <div className={styles.separator}></div>
+            <a href="#contact">Contact</a>
+            <div className={styles.separator}></div>
           </li>
         </ul>
       </nav>
