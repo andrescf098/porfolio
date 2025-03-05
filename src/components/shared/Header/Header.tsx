@@ -10,12 +10,11 @@ export const Header = () => {
           <li>
             <a href="#home">Home</a>
             <div className={styles.separator}></div>
-            <a href="#about">About me</a>
-            <div className={styles.separator}></div>
             <a href="#projects">Projects</a>
             <div className={styles.separator}></div>
-            <a href="#contact">Contact</a>
+            <a href="#about">About me</a>
             <div className={styles.separator}></div>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

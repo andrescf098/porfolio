@@ -5,9 +5,9 @@ import { sendEmail } from "../../utilities/sendEmail";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { HorizontalWrapper } from "../HorizontalWrapper";
-import { Contact } from "../icons/Contact";
 import Link from "next/link";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Contact } from "../icons/Contact";
 
 export const ContactMe = () => {
   const [wasSentEmail, setWasSentEmail] = useState<boolean>(false);
@@ -25,10 +25,6 @@ export const ContactMe = () => {
   return (
     <section id="contact" className={styles.contact}>
       <HorizontalWrapper>
-        <div className={styles.separator__container}>
-          <div className={styles.separator__section}></div>
-          <div className={styles.separator__sectionGlow}></div>
-        </div>
         <article className={styles._container}>
           <div className={styles._header}>
             <p className={styles._title}>

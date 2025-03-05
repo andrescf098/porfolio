@@ -185,9 +185,3 @@
     width: 80%;
   }
 }
-
-@media (width >=1440px) {
-  ._container {
-    justify-content: space-around;
-  }
-}

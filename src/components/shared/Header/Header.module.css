@@ -15,7 +15,6 @@
   border: 1px solid --text-nFocus;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
-
 .header__nav ul {
   list-style: none;
   height: 100%;
@@ -29,7 +28,6 @@
   display: flex;
   gap: 12px;
 }
-
 .separator {
   width: 1px;
   height: 25px;
@@ -38,7 +36,7 @@
 
 .header__nav ul li a {
   text-decoration: none;
-  color: var(--text-nFocus);
+  color: white;
   font-size: var(--font-size-subtitle);
   font-weight: 500;
   transition: 0.3s;

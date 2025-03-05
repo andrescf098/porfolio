@@ -1,49 +1,48 @@
 :root {
-    --bg: #0f0f11;
-    --bg-content: white;
-    --bg-tooltips: #a6a6a6;
-    --bg-tooltips-hover: #868585;
-    --bg-card: white;
-    --bg-separator: linear-gradient(
-      220deg,
-      rgba(3, 113, 163, 1) 0%,
-      rgba(255, 174, 82, 1) 100%
-    );
-    --text-focus: #ffae52;
-    --text-nFocus: rgba(255, 255, 255, 0.5);
-    --text-home: white;
-    --text-title-home: #ffae52;
-    --text-content: #756262;
-    --blue: #35b8f0;
-    --blue-border: #35b8f0;
-    --blue-bg: rgba(53, 184, 240, 0.2);
-    --blue-text: #0d6387;
-    --font-size-title-p: 2.25rem;
-    --font-size-title: 3rem;
-    --font-size-subtitle: 1.25rem;
-    --font-size-content: 1rem;
-  }
+  --bg: #0f0f11;
+  --bg-content: white;
+  --bg-tooltips: #a6a6a6;
+  --bg-tooltips-hover: #868585;
+  --bg-card: white;
+  --bg-separator: linear-gradient(
+    220deg,
+    rgba(3, 113, 163, 1) 0%,
+    rgba(255, 174, 82, 1) 100%
+  );
+  --text-focus: #ffae52;
+  --text-nFocus: rgba(255, 255, 255, 0.5);
+  --text-home: white;
+  --text-title-home: #ffae52;
+  --text-content: #756262;
+  --blue: #35b8f0;
+  --blue-border: #35b8f0;
+  --blue-bg: rgba(53, 184, 240, 0.2);
+  --blue-text: #0d6387;
+  --font-size-title-p: 2.25rem;
+  --font-size-title: 3rem;
+  --font-size-subtitle: 1.25rem;
+  --font-size-content: 1rem;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-    min-width: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 0;
 }
 
 body {
-    background-color: var(--bg);
-    min-height: 100dvh;
+  background: var(--bg);
 }
 
 h1,
 h2,
 h3,
 h4 {
-    text-wrap: balance;
+  text-wrap: balance;
 }
 
 p {
-    text-wrap: pretty
+  text-wrap: pretty;
 }
