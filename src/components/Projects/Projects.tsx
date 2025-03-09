@@ -47,12 +47,13 @@ export const Projects = () => {
     },
     {
       title: "BorderIdea - Digital board collaborative",
-      description: "You can create a board and share it with other people or work collaboratively to capture your ideas",
+      description:
+        "You can create a board and share it with other people or work collaboratively to capture your ideas",
       img: imageShopi,
       urlGithub: "",
-      url: "",
+      url: "https://board-idea.vercel.app/",
       technologies: ["Nextjs", "TailwindCSS", "Clerk", "Convex"],
-    }
+    },
   ];
   return (
     <section id="projects" className={styles.projects}>

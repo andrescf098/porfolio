@@ -20,7 +20,7 @@ export const Card: React.FC<elements> = ({ projects }) => {
             quality={85}
           />
           <div className={styles._content}>
-            <h2>{project.title}</h2>`
+            <h2>{project.title}</h2>
             <span>
               <ul>
                 {project.technologies.map((tech, index) => (
