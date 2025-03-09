@@ -5,6 +5,7 @@ import imageBlog from "../../../public/blog.jpg";
 import imageParking from "../../../public/Parking.png";
 import imageShopi from "../../../public/Shopi.png";
 import imageSocialNetwork from "../../../public/SocialNetwork.png";
+import imageBoard from "../../../public/BoardIdea.png";
 import { HorizontalWrapper } from "../HorizontalWrapper";
 
 export const Projects = () => {
@@ -46,11 +47,11 @@ export const Projects = () => {
       technologies: ["React", "TailwindCSS", "Express.js", "MySQL", "Prisma"],
     },
     {
-      title: "BorderIdea - Digital board collaborative",
+      title: "BoardIdea - Digital board collaborative",
       description:
         "You can create a board and share it with other people or work collaboratively to capture your ideas",
-      img: imageShopi,
-      urlGithub: "",
+      img: imageBoard,
+      urlGithub: "https://github.com/andrescf098/BoardIdea",
       url: "https://board-idea.vercel.app/",
       technologies: ["Nextjs", "TailwindCSS", "Clerk", "Convex"],
     },
