@@ -28,23 +28,31 @@ export const Projects = () => {
       technologies: ["React", "Node.js", "Express.js", "MongoDB"],
     },
     {
-      title: "SocialReact",
+      title: "SocialReact - Social Network",
       description:
         "A Social Network. Create a user, follow different people, share photos or statuses and comment on those you follow",
       img: imageSocialNetwork,
-      urlGithub: "",
-      url: "",
+      urlGithub: "https://github.com/andrescf098/project-socialNetwork",
+      url: "https://social-network-frontend-sepia.vercel.app/",
       technologies: ["React", "Node.js", "Express.js", "MongoDB"],
     },
     {
-      title: "Virtual shopping store",
+      title: "Passmanager - Password manager",
       description:
-        "Virtual store to search and buy products from different categories, add products to your shopping cart and create your order",
+        "A password manager. Create a user, save your passwords and see them when you need them",
       img: imageShopi,
       urlGithub: "",
       url: "",
-      technologies: ["React", "TailwindCSS", "Express.js", "PostgreSQL"],
+      technologies: ["React", "TailwindCSS", "Express.js", "MySQL", "Prisma"],
     },
+    {
+      title: "BorderIdea - Digital board collaborative",
+      description: "You can create a board and share it with other people or work collaboratively to capture your ideas",
+      img: imageShopi,
+      urlGithub: "",
+      url: "",
+      technologies: ["Nextjs", "TailwindCSS", "Clerk", "Convex"],
+    }
   ];
   return (
     <section id="projects" className={styles.projects}>
