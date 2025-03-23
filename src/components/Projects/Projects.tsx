@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./Projects.module.css";
 import { Card } from "../Card";
 import { HorizontalWrapper } from "../HorizontalWrapper";
-import { elements } from "../../data/porfolio-data.js"
+import { elements } from "../../data/porfolio-data.js";
 
 export const Projects = () => {
-  const projects: [] = elements;
+  const projects = elements;
   return (
     <section id="projects" className={styles.projects}>
       <HorizontalWrapper>
