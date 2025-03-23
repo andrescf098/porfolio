@@ -5,7 +5,7 @@ import { HorizontalWrapper } from "../HorizontalWrapper";
 import { elements } from "../../data/porfolio-data.js"
 
 export const Projects = () => {
-  const projects: Projects[] = elements;
+  const projects: [] = elements;
   return (
     <section id="projects" className={styles.projects}>
       <HorizontalWrapper>
