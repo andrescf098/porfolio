@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import styles from "./ContactMe.module.css";
-import { sendEmail } from "../../utilities/sendEmail";
+import { sendEmail } from "../../utils/sendEmail";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { HorizontalWrapper } from "../HorizontalWrapper";
