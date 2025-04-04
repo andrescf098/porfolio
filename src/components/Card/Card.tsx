@@ -14,8 +14,8 @@ export const Card: React.FC<elements> = ({ projects }) => {
         <article key={index} className={styles._card}>
           <Image
             src={project.img}
-            width={340}
-            height={180}
+            width={430}
+            height={215}
             alt={project.title}
             quality={85}
           />
