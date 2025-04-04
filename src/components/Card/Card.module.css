@@ -18,12 +18,13 @@
   border: 1px solid rgba(15, 53, 70, 0.2);
   border-radius: 0.5rem;
 }
+
 ._card img {
   min-width: 340px;
   aspect-ratio: 16/9;
   object-fit: cover;
-  border-radius: 0.75rem;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 ._content {
@@ -38,7 +39,7 @@
 }
 ._content ul {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-direction: row;
   list-style: none;
 }
@@ -46,10 +47,9 @@
   background: var(--blue-bg);
   font-size: small;
   font-weight: bold;
-  padding: 0.375rem;
+  padding: 0.375rem 0.75rem;
   border-radius: 1rem;
   color: var(--blue-text);
-  border: 1px solid var(--blue-border);
 }
 
 ._description {
