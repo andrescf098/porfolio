@@ -9,11 +9,12 @@
     rgba(3, 113, 163, 1) 0%,
     rgba(255, 174, 82, 1) 100%
   );
+  --bg-badge: #e5e7eb;
   --text-focus: #ffae52;
   --text-nFocus: rgba(255, 255, 255, 0.5);
   --text-home: white;
   --text-title-home: #ffae52;
-  --title-content: #5c4c4c;
+  --title-content: #634e4e;
   --text-content: #756262;
   --blue: #35b8f0;
   --blue-border: #35b8f0;
