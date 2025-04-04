@@ -27,6 +27,7 @@
 ._title {
   flex: 0.5;
   font-size: var(--font-size-title);
+  color: var(--title-content);
   text-align: center;
   font-weight: bold;
   padding-left: 0;
@@ -42,6 +43,7 @@
 }
 ._titleSkills {
   font-size: var(--font-size-subtitle);
+  color: var(--title-content);
   text-align: center;
   font-weight: bold;
   padding-left: 0;
@@ -70,9 +72,9 @@
   place-items: center;
   font-size: var(--font-size-content);
   font-weight: bold;
-  background: var(--bg-tooltips);
-  color: black;
+  color: var(--text-content);
   border-radius: 50px;
+  border: 1px solid var(--text-content);
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 ._softSkills {
@@ -91,9 +93,9 @@
   place-items: center;
   font-size: var(--font-size-content);
   font-weight: bold;
-  background: var(--bg-tooltips);
-  color: black;
+  color: var(--text-content);
   border-radius: 50px;
+  border: 1px solid var(--text-content);
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 1024px) {
