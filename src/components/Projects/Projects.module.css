@@ -12,5 +12,6 @@
   font-size: var(--font-size-title);
   font-weight: bold;
   text-align: center;
+  color: var(--title-content);
   margin-bottom: 32px;
 }
