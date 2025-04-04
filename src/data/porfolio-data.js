@@ -8,7 +8,7 @@ export const elements = [
   {
     title: "Parking lot manager",
     description:
-      "App to manage the entry and exit of vehicles from a parking lot",
+      "App for managing vehicle entry and exit, available spaces, and fare control in a parking lot. The backend is built with Express.js and a MySQL relational database, while the frontend uses Vite - React.",
     img: imageParking,
     urlGithub: "",
     url: "https://admin-parqueadero-frontend.vercel.app/home",
@@ -17,7 +17,7 @@ export const elements = [
   {
     title: "Personal blog",
     description:
-      "Create a user, modify your profile and share your experiences or general knowledge",
+      "Create a user, modify your profile and share your experiences or general knowledge. The backend is built with Express.js and a MongoDB not relational database, while the frontend uses React.",
     img: imageBlog,
     urlGithub: "https://github.com/andrescf098/project-blog",
     url: "https://blog-frontend-self-kappa.vercel.app",
@@ -26,7 +26,7 @@ export const elements = [
   {
     title: "SocialReact - Social Network",
     description:
-      "A Social Network. Create a user, follow different people, share photos or statuses and comment on those you follow",
+      "A Social Network. Create a user, follow different people, share photos or statuses and comment on those you follow. The backend is built with Express.js and a MongoDB not relational database, while the frontend uses React.",
     img: imageSocialNetwork,
     urlGithub: "https://github.com/andrescf098/project-socialNetwork",
     url: "https://social-network-frontend-sepia.vercel.app/",
@@ -35,19 +35,26 @@ export const elements = [
   {
     title: "Passmanager - Password manager",
     description:
-      "A password manager. Create a user, save your passwords and see them when you need them",
+      "A password manager. Create a user, save your passwords and see them when you need them. Built with Next.js for the frontend, styled with Tailwind CSS and ShadCN. The backend uses Express.js with MySQL, managed through Prisma.",
     img: imageShopi,
     urlGithub: "https://github.com/andrescf098/password-manager",
     url: "",
-    technologies: ["React", "TailwindCSS", "Express.js", "MySQL", "Prisma"],
+    technologies: [
+      "Next.js",
+      "TailwindCSS",
+      "Shadcn",
+      "Express.js",
+      "MySQL",
+      "Prisma",
+    ],
   },
   {
     title: "BoardIdea - Digital board collaborative",
     description:
-      "You can create a board and share it with other people or work collaboratively to capture your ideas",
+      "You can create a board and share it with other people or work collaboratively to capture your ideas. Built with Next.js for the frontend, styled with Tailwind CSS. Authentication is handled by Clerk, and Convex powers the backend and database.",
     img: imageBoard,
     urlGithub: "https://github.com/andrescf098/BoardIdea",
     url: "https://board-idea.vercel.app/",
     technologies: ["Nextjs", "TailwindCSS", "Clerk", "Convex"],
   },
-]
+];
