@@ -78,7 +78,7 @@ export const ContactMe = () => {
             )}
           </div>
           <footer className={styles._footer}>
-            <p>© Copyright 2025 - Made by Andrés Cifuentes</p>
+            <p>© Made by Andrés Cifuentes - 2025</p>
             <div className={styles.footer__social}>
               <Link href="https://www.linkedin.com/in/andr%C3%A9s-cifuentes-castro-513b74306/">
                 <FontAwesomeIcon icon={faLinkedin} />
