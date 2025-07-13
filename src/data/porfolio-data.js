@@ -1,8 +1,8 @@
-import imageBlog from "../../public/blog.jpg";
-import imageParking from "../../public/Parking.png";
-import imageShopi from "../../public/Shopi.png";
-import imageSocialNetwork from "../../public/SocialNetwork.png";
-import imageBoard from "../../public/BoardIdea.png";
+import imageBlog from "../../public/Blog.jpeg";
+import imageParking from "../../public/Parking.jpeg";
+import imagePass from "../../public/PassManager.jpeg";
+import imageSocialNetwork from "../../public/SocialNetwork.jpeg";
+import imageBoard from "../../public/BoardIdea.jpeg";
 
 export const elements = [
   {
@@ -36,7 +36,7 @@ export const elements = [
     title: "Passmanager - Password manager",
     description:
       "A password manager. Create a user, save your passwords and see them when you need them. Built with Next.js for the frontend, styled with Tailwind CSS and ShadCN. The backend uses Express.js with MySQL, managed through Prisma.",
-    img: imageShopi,
+    img: imagePass,
     urlGithub: "https://github.com/andrescf098/password-manager",
     url: "",
     technologies: [
