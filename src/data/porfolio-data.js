@@ -1,8 +1,8 @@
-import imageBlog from "../../public/Blog.jpeg";
-import imageParking from "../../public/Parking.jpeg";
-import imagePass from "../../public/PassManager.jpeg";
-import imageSocialNetwork from "../../public/SocialNetwork.jpeg";
-import imageBoard from "../../public/BoardIdea.jpeg";
+import imageBlog from "../../public/Blog.webp";
+import imageParking from "../../public/Parking.webp";
+import imagePass from "../../public/PassManager.webp";
+import imageSocialNetwork from "../../public/SocialNetwork.webp";
+import imageBoard from "../../public/BoardIdea.webp";
 
 export const elements = [
   {
